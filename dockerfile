@@ -8,7 +8,6 @@ COPY . .
 RUN apt-get install mavin -y
 RUN mvn clean install
 
-Fr
 FROM openjdk:17-jdk-slim
 
 EXPOSE 8080
